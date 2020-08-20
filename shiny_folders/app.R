@@ -7,6 +7,8 @@
 #    http://shiny.rstudio.com/
 #
 
+Sys.setlocale("LC_NUMERIC", "C")
+
 library(shiny)
 library(dplyr)
 library(ggplot2)
